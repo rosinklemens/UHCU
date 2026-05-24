@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "U14, 2026/27",
+    "section": "",
+    "text": "Spiele"
+  },
+  {
+    "objectID": "quarto/2026-05-19_Rychenberg.html#beschreibung",
+    "href": "quarto/2026-05-19_Rychenberg.html#beschreibung",
+    "title": "1  19.5.2026 Rychenberg",
+    "section": "1.1 Beschreibung",
+    "text": "1.1 Beschreibung\n\nWo: BZU\nBesonderes: Trainingsspiel (vier Mal 20 Minuten)"
+  },
+  {
+    "objectID": "quarto/2026-05-19_Rychenberg.html#zusammenfassung",
+    "href": "quarto/2026-05-19_Rychenberg.html#zusammenfassung",
+    "title": "1  19.5.2026 Rychenberg",
+    "section": "1.2 Zusammenfassung",
+    "text": "1.2 Zusammenfassung\n\nPositives für Uster\n\nOffensiv-Transition: Uster auf Augenhöhe mit dem Gegner (ähnliche xG-Werte)\nNach dem 1. Viertel nicht entmutigen lassen, beste xG-Werte (Uster vs. Gegner) im 3. Viertel\n\nFacts\n\nWenn Gegner bereits in Defensiv-Transition: Relativ hohe xG-Werte für den Gegner (Ballverlust von Uster)\nGegner hohe xG-Werte im 1. Viertel"
+  },
+  {
+    "objectID": "quarto/2026-05-19_Rychenberg.html#torchancen",
+    "href": "quarto/2026-05-19_Rychenberg.html#torchancen",
+    "title": "1  19.5.2026 Rychenberg",
+    "section": "1.3 Torchancen",
+    "text": "1.3 Torchancen\n\n1.3.1 Torchancen nach Qualität\n\nGegner mehr als doppelt so viele HQ-Torchancen wie Uster.\n\n\n\n\n\n\n\n\n\n1.3.2 Torchancen nach Spielphase\n\nVor allem im 1. Viertel hatten die Gegner viele HQ-Torchancen.\n\n\n\n\n\n\n\n\n\n1.3.3 Torchancen nach Spielsituation\n\nTorchancen obwohl bereits in Defensiv-Transition: Das gab es fast nur für den Gegner.\nDie HQ-Torchancen entstanden bei Uster etwa gleich häufig aus Offensive wie Offensiv-Transtion.\nBeim Gegner entstanden die HQ-Torchancen vor allem aus der Offensive\nAllerdings gab es beim Gegner in der Offensive auch viele LQ-Torchancen (weil Uster gut verteidigt?)\n\n\n\n\n\n\n\n\n\n1.3.4 Torchancen nach Spielsituation und Spielphase\n\nHQ-Torchancen für den Gegner wegen Ballverlusten (Gegner bereits in Defensiv-Transition) gab es vor allem im 3. und 4. Viertel.\n\n\n\n\n\n\n\n\n\n1.3.5 Torchancen kumuliert\n\nJe grösser die Steigung, desto mehr Torchancen erarbeitet\nHQ-Torchancen von Uster: Regelmässig (ausser bis zur 10. und ab der 70. Minute), einfach halt deutlich weniger als der Gegner\nHQ-Torchancen des Gegeners: Vor allem bei Spielbeginn regelmässig HQ-Torchancen erarbeitet\nBei den MQ-Torchancen: Uster ähnlich wie der Gegner (bis Spielmitte)"
+  },
+  {
+    "objectID": "quarto/2026-05-19_Rychenberg.html#xg",
+    "href": "quarto/2026-05-19_Rychenberg.html#xg",
+    "title": "1  19.5.2026 Rychenberg",
+    "section": "1.4 xG",
+    "text": "1.4 xG\n\n1.4.1 xG-Berechnung\n\nDaten für Modellfit: Alle Spiele.\nFeatures bei xG-Berechnung: Spielsituation (Offensiv, Offensiv-Transition, Defensiv, Defensiv-Transition, Freistoss, Penalty), Torchance (HQ, MQ, LQ), Specialteams (Powerplay, Boxplay, Gleichstand)\nModelle vergleichen: Logistische Regression, GAM (Generalized Additive Model), Random Forest, Gradient Boosting\nFeature Importance bei Gradient Boosting: HQ-Torchancen klar höchste Feature Importance\nBei vorhandener (geringer) Datenmenge: Logistische Regression scheint robuster im Vergleich mit den anderen Methoden.\n\n\n\n\n\n\n\n\n\n1.4.2 xG nach Modell\n\nxG-Berechnung für aktuelles Spiel\nAlle Modelle ausser Random Forest relativ ähnlich\nVorhandene Datenmenge gering\nIm Folgenden: xG-Berechnung mit Logistischer Regression verwendet\n\n\n\n\n\n\n\n\n\n1.4.3 xG nach Spielphase\n\nIm 1. Viertel sind die xG-Unterschiede (Uster, Gegner) am grössten\nIm 3. Viertel sind die xG-Unterschiede (Uster, Gegner) am kleinsten\n\n\n\n\n\n\n\n\n\n1.4.4 xG nach Spielsituation\n\nOffensive und Defensive-Transition: Dort hat der Gegner den Unterschied gemacht.\nOffensiv-Transition (oft Konter): Dort war Uster auf Augenhöhe.\n\n\n\n\n\n\n\n\n\n1.4.5 xG nach Spielsituation und Spielphase\n\n\n\n\n\n\n\n\n1.4.6 xG kumuliert\n\nxG-Entwicklung über die Zeit bei beiden Teams relativ konstant\nBei Uster über die gesamte Spielzeit geringer als beim Gegner"
+  },
+  {
+    "objectID": "quarto/2026-05-19_Rychenberg.html#tore-vs.-xg",
+    "href": "quarto/2026-05-19_Rychenberg.html#tore-vs.-xg",
+    "title": "1  19.5.2026 Rychenberg",
+    "section": "1.5 Tore vs. xG",
+    "text": "1.5 Tore vs. xG\n\n1.5.1 Gesamtes Spiel\n\nEffektive Tore (G) vs. expected Goals (xG)\nRelativ ähnlich (auch weil geringe Datenmenge)\n\n\n\n\n\n\n\n\n\n1.5.2 Tore nach Spielphase\n\n\nViertel: Der Gegner war zwar besser (höherer xG-Wert). Uster wurde dort aber unter Wert geschlagen.\n\n\nViertel: Ausgleichende Gerechtigkeit; Unentschieden trotz beträchtlich höherem xG-Wert des Gegners.\n\n\n\n\n\n\n\n\n\n\n1.5.3 Tore nach Spielsituation\n\nAuch bei Spielsituation: Ausgleichende Gerechtigkeit\n\n\n\n\n\n\n\n\n\n1.5.4 Tore nach Spielsituation und Spielphase\n\nKeine weiteren Erkenntnisse\n\n\n\n\n\n\n\n\n\n1.5.5 Tore kumuliert\n\nUster hat sich zwar von Beginn an Chancen erarbeitet (xG ansteigend)\nEffektiv aber Tore vor allem in der zweiten Spielhälfte erziehlt"
+  }
+]
