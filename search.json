@@ -248,5 +248,65 @@
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>13.09.2026 Züri Süd</span>"
     ]
+  },
+  {
+    "objectID": "quarto/2026-09-20_Kloten-Dietlikon-Jets.html",
+    "href": "quarto/2026-09-20_Kloten-Dietlikon-Jets.html",
+    "title": "5  20.09.2026 Jets",
+    "section": "",
+    "text": "5.1 Beschreibung",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>20.09.2026 Jets</span>"
+    ]
+  },
+  {
+    "objectID": "quarto/2026-09-20_Kloten-Dietlikon-Jets.html#beschreibung",
+    "href": "quarto/2026-09-20_Kloten-Dietlikon-Jets.html#beschreibung",
+    "title": "5  20.09.2026 Jets",
+    "section": "",
+    "text": "Wo: Kloten Stighag\nMeisterschaft",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>20.09.2026 Jets</span>"
+    ]
+  },
+  {
+    "objectID": "quarto/2026-09-20_Kloten-Dietlikon-Jets.html#zusammenfassung",
+    "href": "quarto/2026-09-20_Kloten-Dietlikon-Jets.html#zusammenfassung",
+    "title": "5  20.09.2026 Jets",
+    "section": "5.2 Zusammenfassung",
+    "text": "5.2 Zusammenfassung\n\nPositives für Uster\n\nIm 2. und 3. Drittel hatte Uster klar höhere xG-Werte\nUster besonders stark bei Konter und Ballgewinn nach Pressing (effektive Tore und xG-Werte hoch)\n\nFacts\n\nIm 1. Drittel komplett ausgeglichen bezüglich xG\nGegner nur in den letzten drei Minuten stärker (xG-Werte)\n\nEinschränkungen\n\nKategorisierung der Torchancen (HQ, MQ, LQ) subjektiv\nDatenmenge für die xG-Modelle gering",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>20.09.2026 Jets</span>"
+    ]
+  },
+  {
+    "objectID": "quarto/2026-09-20_Kloten-Dietlikon-Jets.html#torchancen",
+    "href": "quarto/2026-09-20_Kloten-Dietlikon-Jets.html#torchancen",
+    "title": "5  20.09.2026 Jets",
+    "section": "5.3 Torchancen",
+    "text": "5.3 Torchancen\n\n5.3.1 Torchancen nach Qualität\n\n\n\n\n\n\n\n\n5.3.2 Torchancen nach Spielphase\n\n\n\n\n\n\n\n\n5.3.3 Torchancen nach Spielsituation\n\n\n\n\n\n\n\n\n5.3.4 Torchancen nach Block\n\n\n\n\n\n\n\n\n5.3.5 Torchancen nach Spielsituation und Spielphase\n\n\n\n\n\n\n\n\n5.3.6 Torchancen nach Block und Spielphase\n\n\n\n\n\n\n\n\n5.3.7 Torchancen kumuliert",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>20.09.2026 Jets</span>"
+    ]
+  },
+  {
+    "objectID": "quarto/2026-09-20_Kloten-Dietlikon-Jets.html#xg",
+    "href": "quarto/2026-09-20_Kloten-Dietlikon-Jets.html#xg",
+    "title": "5  20.09.2026 Jets",
+    "section": "5.4 xG",
+    "text": "5.4 xG\n\n5.4.1 xG-Berechnung\n\nDaten für Modellfit: Alle Spiele.\nFeatures bei xG-Berechnung: Spielsituation (Offensiv, Offensiv-Transition, Defensiv, Defensiv-Transition, Freistoss, Penalty), Torchance (HQ, MQ, LQ), Specialteams (Powerplay, Boxplay, Gleichstand)\nModelle vergleichen: Logistische Regression, GAM (Generalized Additive Model), Random Forest, Gradient Boosting\nFeature Importance bei Gradient Boosting: HQ-Torchancen klar höchste Feature Importance\nBei vorhandener (geringer) Datenmenge: Logistische Regression scheint robuster im Vergleich mit den anderen Methoden.\n\n\n\n\n\n\n\n\n\n5.4.2 xG nach Modell\n\nxG-Berechnung für aktuelles Spiel\nAlle Modelle ausser Random Forest relativ ähnlich\nVorhandene Datenmenge gering\nIm Folgenden: xG-Berechnung mit Logistischer Regression verwendet\n\n\n\n\n\n\n\n\n\n5.4.3 xG nach Spielphase\n\n\n\n\n\n\n\n\n5.4.4 xG nach Spielsituation\n\n\n\n\n\n\n\n\n5.4.5 xG nach Block\n\n\n\n\n\n\n\n\n5.4.6 xG nach Spielsituation und Spielphase\n\n\n\n\n\n\n\n\n5.4.7 xG nach Block und Spielphase\n\n\n\n\n\n\n\n\n5.4.8 xG kumuliert",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>20.09.2026 Jets</span>"
+    ]
+  },
+  {
+    "objectID": "quarto/2026-09-20_Kloten-Dietlikon-Jets.html#tore-vs.-xg",
+    "href": "quarto/2026-09-20_Kloten-Dietlikon-Jets.html#tore-vs.-xg",
+    "title": "5  20.09.2026 Jets",
+    "section": "5.5 Tore vs. xG",
+    "text": "5.5 Tore vs. xG\n\n5.5.1 Gesamtes Spiel\n\n\n\n\n\n\n\n\n5.5.2 Tore nach Spielphase\n\n\n\n\n\n\n\n\n5.5.3 Tore nach Spielsituation\n\n\n\n\n\n\n\n\n5.5.4 Tore nach Block\n\n\n\n\n\n\n\n\n5.5.5 Tore nach Spielsituation und Spielphase\n\n\n\n\n\n\n\n\n5.5.6 Tore nach Block und Spielphase\n\n\n\n\n\n\n\n\n5.5.7 Tore kumuliert",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>20.09.2026 Jets</span>"
+    ]
   }
 ]
