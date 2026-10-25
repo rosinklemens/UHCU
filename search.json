@@ -308,5 +308,65 @@
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>20.09.2026 Jets</span>"
     ]
+  },
+  {
+    "objectID": "quarto/2026-10-24_Pumas.html",
+    "href": "quarto/2026-10-24_Pumas.html",
+    "title": "6  24.10.2026 Pumas",
+    "section": "",
+    "text": "6.1 Beschreibung",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>24.10.2026 Pumas</span>"
+    ]
+  },
+  {
+    "objectID": "quarto/2026-10-24_Pumas.html#beschreibung",
+    "href": "quarto/2026-10-24_Pumas.html#beschreibung",
+    "title": "6  24.10.2026 Pumas",
+    "section": "",
+    "text": "Wo: Erlen TG\nMeisterschaft",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>24.10.2026 Pumas</span>"
+    ]
+  },
+  {
+    "objectID": "quarto/2026-10-24_Pumas.html#zusammenfassung",
+    "href": "quarto/2026-10-24_Pumas.html#zusammenfassung",
+    "title": "6  24.10.2026 Pumas",
+    "section": "6.2 Zusammenfassung",
+    "text": "6.2 Zusammenfassung\n\nPositives für Uster\n\nUmstellung auf zwei Blöcke (3. Drittel) zeigte Wirkung\n\nDrittel: mehr Energie, mehr Ballbesitz, höhere xG-Werte\n\n\nFacts\n\nEigentlich gab es zwei Spiele: 1./2. Drittel vs. 3. Drittel\nErste zwei Drittel: Gegner überlegen\nDrittes Drittel: Uster mindestens auf Augenhöhe\nStart nach Anpfiff missglückt (in 2./3. Drittel): 3 Gegentore kurz nach Anpfiff\nStarkes Pressing durch Gegner: Uster liess sich einschüchtern\nAktives, lautes Coaching des Gegners: Uster liess sich einschüchtern\n\nEinschränkungen\n\nUster nach zwei Drittel auf zwei (neue) Blöcke umgestellt: Auswertungen nach Block über das gesamte Spiel nicht vergleichbar\nKategorisierung der Torchancen (HQ, MQ, LQ) subjektiv\nDatenmenge für die xG-Modelle gering",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>24.10.2026 Pumas</span>"
+    ]
+  },
+  {
+    "objectID": "quarto/2026-10-24_Pumas.html#torchancen",
+    "href": "quarto/2026-10-24_Pumas.html#torchancen",
+    "title": "6  24.10.2026 Pumas",
+    "section": "6.3 Torchancen",
+    "text": "6.3 Torchancen\n\n6.3.1 Torchancen nach Qualität\n\n\n\n\n\n\n\n\n6.3.2 Torchancen nach Spielphase\n\n\n\n\n\n\n\n\n6.3.3 Torchancen nach Spielsituation\n\n\n\n\n\n\n\n\n6.3.4 Torchancen nach Block\n\n\n\n\n\n\n\n\n6.3.5 Torchancen nach Spielsituation und Spielphase\n\n\n\n\n\n\n\n\n6.3.6 Torchancen nach Block und Spielphase\n\n\n\n\n\n\n\n\n6.3.7 Torchancen kumuliert",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>24.10.2026 Pumas</span>"
+    ]
+  },
+  {
+    "objectID": "quarto/2026-10-24_Pumas.html#xg",
+    "href": "quarto/2026-10-24_Pumas.html#xg",
+    "title": "6  24.10.2026 Pumas",
+    "section": "6.4 xG",
+    "text": "6.4 xG\n\n6.4.1 xG-Berechnung\n\nDaten für Modellfit: Alle Spiele.\nFeatures bei xG-Berechnung: Spielsituation (Offensiv, Offensiv-Transition, Defensiv, Defensiv-Transition, Freistoss, Penalty), Torchance (HQ, MQ, LQ), Specialteams (Powerplay, Boxplay, Gleichstand)\nModelle vergleichen: Logistische Regression, GAM (Generalized Additive Model), Random Forest, Gradient Boosting\nFeature Importance bei Gradient Boosting: HQ-Torchancen klar höchste Feature Importance\nBei vorhandener (geringer) Datenmenge: Logistische Regression scheint robuster im Vergleich mit den anderen Methoden.\n\n\n\n\n\n\n\n\n\n6.4.2 xG nach Modell\n\nxG-Berechnung für aktuelles Spiel\nAlle Modelle ausser Random Forest relativ ähnlich\nVorhandene Datenmenge gering\nIm Folgenden: xG-Berechnung mit Logistischer Regression verwendet\n\n\n\n\n\n\n\n\n\n6.4.3 xG nach Spielphase\n\n\n\n\n\n\n\n\n6.4.4 xG nach Spielsituation\n\n\n\n\n\n\n\n\n6.4.5 xG nach Block\n\n\n\n\n\n\n\n\n6.4.6 xG nach Spielsituation und Spielphase\n\n\n\n\n\n\n\n\n6.4.7 xG nach Block und Spielphase\n\n\n\n\n\n\n\n\n6.4.8 xG kumuliert",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>24.10.2026 Pumas</span>"
+    ]
+  },
+  {
+    "objectID": "quarto/2026-10-24_Pumas.html#tore-vs.-xg",
+    "href": "quarto/2026-10-24_Pumas.html#tore-vs.-xg",
+    "title": "6  24.10.2026 Pumas",
+    "section": "6.5 Tore vs. xG",
+    "text": "6.5 Tore vs. xG\n\n6.5.1 Gesamtes Spiel\n\n\n\n\n\n\n\n\n6.5.2 Tore nach Spielphase\n\n\n\n\n\n\n\n\n6.5.3 Tore nach Spielsituation\n\n\n\n\n\n\n\n\n6.5.4 Tore nach Block\n\n\n\n\n\n\n\n\n6.5.5 Tore nach Spielsituation und Spielphase\n\n\n\n\n\n\n\n\n6.5.6 Tore nach Block und Spielphase\n\n\n\n\n\n\n\n\n6.5.7 Tore kumuliert",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>24.10.2026 Pumas</span>"
+    ]
   }
 ]
